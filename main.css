@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+}
+.header-div-1{
+    width: 70%;
+}
+.header-div-2{
+    width: 30%;
+    /*background-color: rgb(211, 209, 209);*/
+    background-color: white;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1vw;
+}
+.links li{
+    padding-left: 2vw;
+    list-style-type: none;
+    font-size: x-large;
+    padding-top: 3vh;
+}
+.links a{
+    text-decoration: none;
+}
+.get-in-touch-button{
+    position: absolute;
+    right: 60px;
+    top: 30px;
+    color: white;
+    background-color: blue;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 0.30rem;
+    border: blue;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: white;
+}
+.home-div-1{
+    width: 70%;
+    border-radius: 0px 0px 100px 0px;
+    background-color: white;
+}
+.home-div-2{
+    width: 30%;
+    height: 90vh;
+    
+}
+.home-heading{
+    padding-top: 25vh;
+    padding-left: 10vw;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.home-desc{
+    padding-top: 1vh;
+    padding-left: 10.2vw;
+    line-height: 35px;
+}
+.get-in-touch-button-home{
+    position: absolute;
+    left: 150px;
+    margin-top: 2vh;
+    color: white;
+    background-color: rgb(226, 206, 27);
+    height: 5vh;
+    width: 8vw;
+    border-radius: 0.30rem;
+    border: yellow;
+}
+/*.home-img-1{
+    position:absolute;
+    right: 28vw;
+    top: 20vh;
+    height: 42vh;
+    width: 15vw;
+    border-radius: 50px 0px;
+}
+.home-img-2{
+    position:absolute;
+    right: 28vw;
+    top: 65vh;
+    height: 20vh;
+    width: 10vw;
+    border-radius: 50px 0px;
+}
+.home-img-3{
+    position:absolute;
+    right: 13vw;
+    height: 26vh;
+    top: 22vh;
+    width: 13vw;
+    border-radius: 50px 0px;
+}
+.home-img-4{
+    position:absolute;
+    right: 13vw;
+    top: 50vh;
+    height: 45vh;
+    width: 13vw;
+    border-radius: 0px 50px;
+}*/
+
+.home-img{
+    position: absolute;
+    right: 0vw;
+    top: 25vh;
+    height: 55vh;
+    width: 58vw;
+}
